@@ -52,6 +52,9 @@
   "eslintConfig": {
     "extends": "trails"
   },
-  "repository": "https://github.com/ycpatel813/trails-passport-auth",
+ "repository": {
+    "type": "git",
+    "url": "git+https://ycpatel813/trails-passport-auth.git"
+  },
   "license": "MIT"
 }
