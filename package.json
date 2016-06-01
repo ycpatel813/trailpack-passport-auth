@@ -1,8 +1,8 @@
 {
   "name": "trailpack-mongoosepassport",
-  "version": "0.0.1",
-  "description": "trailpack for mongooesepassort",
-  "homepage": "http://trailsjs.io",
+  "version": "0.0.2",
+  "description": "trailpack for passportAuth",
+  "homepage": "https://github.com/ycpatel813/trails-passport-auth",
   "author": {
     "name": "Yogesh",
     "email": "yogi@jsbot.io",
@@ -52,6 +52,9 @@
   "eslintConfig": {
     "extends": "trails"
   },
-  "repository": "/trailpack-mongoosepassport",
+ "repository": {
+    "type": "git",
+    "url": "git+https://ycpatel813/trails-passport-auth.git"
+  },
   "license": "MIT"
 }
