@@ -1,5 +1,6 @@
 {
   "name": "trailpack-mongoosepassport",
+  "version": "0.0.1",
   "description": "trailpack for mongooesepassort",
   "homepage": "http://trailsjs.io",
   "author": {
