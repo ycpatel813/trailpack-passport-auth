@@ -5,12 +5,12 @@
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
 
-trailpack for mongooesepassort
+Trailpack for trails-authentication
 
 ## Install
 
 ```sh
-$ npm install --save trailpack-mongoosepassport
+$ npm install --save trailpack-passport-auth
 ```
 
 ## Configure
@@ -20,7 +20,7 @@ $ npm install --save trailpack-mongoosepassport
 module.exports = {
   packs: [
     // ... other trailpacks
-    require('trailpack-mongoosepassport')
+    require('trailpack-passport-auth')
   ]
 }
 ```
