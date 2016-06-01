@@ -34,8 +34,6 @@ module.exports = class MongoosepassportTrailpack extends Trailpack {
 
   constructor(app) {
     super(app, {
-      config: require('./config'),
-      api: require('./api'),
       pkg: require('./package')
     })
   }
