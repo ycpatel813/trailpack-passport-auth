@@ -1,0 +1,57 @@
+{
+  "name": "trailpack-mongoosepassport",
+  "version": "0.0.0",
+  "description": "trailpack for mongooesepassort",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "Yogesh",
+    "email": "yogi@jsbot.io",
+    "url": "jsbot.io"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trailpack",
+    "trails",
+    "trailjs"
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^5.0.0-alpha.2",
+    "joi": "^8.4.0",
+    "jsonwebtoken": "^7.0.0",
+    "passport": "^0.3.2",
+    "trailpack": "latest",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-express": "^1.0.1",
+    "trailpack-mongoose": "^0.2.2",
+    "trailpack-repl": "^1.0.0-beta-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trails": "^1.0.0-beta-1",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.1",
+    "trails-service": "1.0.0-beta-2",
+    "winston": "^2.2"
+  },
+  "devDependencies": {
+    "lodash": "^4.11.1",
+    "trails": "latest",
+    "eslint": "^2.4",
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5",
+    "smokesignals": "^1.0.9",
+    "trailpack-core": "^1.0.0-beta-6"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "/trailpack-mongoosepassport",
+  "license": "MIT"
+}
