@@ -1,6 +1,8 @@
-# trailpack-mongoosepassport
+# trails-passport-auth
 
+[![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
+[![NPM downloads][npm-download]][npm-url]
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
@@ -10,7 +12,7 @@ Trailpack for trails-authentication
 ## Install
 
 ```sh
-$ npm install --save trailpack-passport-auth
+$ npm install --save trails-passport-auth
 ```
 
 ## Configure
@@ -20,7 +22,7 @@ $ npm install --save trailpack-passport-auth
 module.exports = {
   packs: [
     // ... other trailpacks
-    require('trailpack-passport-auth')
+    require('trails-passport-auth')
   ]
 }
 ```
