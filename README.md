@@ -5,7 +5,7 @@ Trails-passport-auth for trails-authentication
 ## Install
 
 ```sh
-$ npm install --save trails-passport-auth
+$ npm install --save trailpack-passport-auth
 ```
 
 ## Configure
@@ -15,7 +15,7 @@ $ npm install --save trails-passport-auth
 module.exports = {
   packs: [
     // ... other trailpacks
-    require('trails-passport-auth')
+    require('trailpack-passport-auth')
   ]
 }
 ```
