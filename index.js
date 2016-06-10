@@ -19,9 +19,10 @@ module.exports = class MongoosepassportTrailpack extends Trailpack {
       return Promise.reject(new Error('You need to change the default token !'))
     }
 
-    return Promise.all([
-      lib.Validator.validatePassportsConfig(this.app.config.session)
-    ])
+    // validation closed for add store in session  
+    // return Promise.all([
+    //   lib.Validator.validatePassportsConfig(this.app.config.session)
+    // ])
   }
 
   /**
